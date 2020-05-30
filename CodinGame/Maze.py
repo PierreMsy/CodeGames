@@ -31,7 +31,6 @@ def bfs(initial_coordinates, grid, goal):
     queue.append(initial_coordinates)
     memory.add(initial_coordinates)
 
-    index = 0
     while len(queue) > 0:
 
         r,c = queue.pop(0)
